@@ -57,7 +57,7 @@ Changes will be directly reflected on the cluster.
 
 # ODO Dev
 ```
-robpau01@xt-lin$ odo dev```
+robpau01@xt-lin$ odo dev
   __
  /  \__     Developing using the "yc" Devfile
  \__/  \    Namespace: default
