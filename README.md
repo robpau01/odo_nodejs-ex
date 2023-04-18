@@ -1,10 +1,59 @@
 # odo_nodejs-ex
 Getting started with NodeJS using odo
 
+# To get deeper understanding of ODO
+https://odo.dev/docs/overview/dev_and_deploy
 
 # Run deployment in for testing
 ```
-robpau01@xt-lin$\> odo dev
+# Require that you have created a namespace
+odo set namespace <name>
+```
+# odo init
+
+```
+# Ex.
+robpau01@xt-lin$ odo set namespace default
+ ✓  Current active namespace set to "default"
+```
+
+
+```
+robpau01@xt-lin$ odo init
+  __
+ /  \__     Initializing a new component
+ \__/  \    Files: Source code detected, a Devfile will be determined based upon source code autodetection
+ /  \__/    odo version: v3.9.0
+ \__/
+
+Interactive mode enabled, please answer the following questions:
+Based on the files in the current directory odo detected
+Language: JavaScript
+Project type: Node.js
+Application ports: 3000
+The devfile "nodejs:2.1.1" from the registry "DefaultDevfileRegistry" will be downloaded.
+? Is this correct? Yes
+ ✓  Downloading devfile "nodejs:2.1.1" from registry "DefaultDevfileRegistry" [1s]
+
+↪ Container Configuration "runtime":
+  OPEN PORTS:
+    - 3000
+    - 5858
+  ENVIRONMENT VARIABLES:
+    - DEBUG_PORT = 5858
+
+? Select container for which you want to change configuration? NONE - configuration is correct
+? Enter component name: yc
+
+You can automate this command by executing:
+   odo init --name yc --devfile nodejs --devfile-registry DefaultDevfileRegistry --devfile-version 2.1.1
+
+Your new component 'yc' is ready in the current directory.
+To start editing your component, use 'odo dev' and open this folder in your favorite IDE.
+Changes will be directly reflected on the cluster.
+```
+
+robpau01@xt-lin$ odo dev```
   __
  /  \__     Developing using the "yc" Devfile
  \__/  \    Namespace: default
