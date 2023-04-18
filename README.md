@@ -2,8 +2,9 @@
 Getting started with NodeJS using odo
 
 
+# Run deployment in for testing
 ```
-robpau01@xt-lin-css-001:~/dev/application-dev/odo_nodejs_testpage$ odo dev
+robpau01@xt-lin$\> odo dev
   __
  /  \__     Developing using the "yc" Devfile
  \__/  \    Namespace: default
