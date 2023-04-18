@@ -2,7 +2,7 @@
 Getting started with NodeJS using odo
 
 
-''
+```
 robpau01@xt-lin-css-001:~/dev/application-dev/odo_nodejs_testpage$ odo dev
   __
  /  \__     Developing using the "yc" Devfile
@@ -31,4 +31,4 @@ robpau01@xt-lin-css-001:~/dev/application-dev/odo_nodejs_testpage$ odo dev
 [Ctrl+c] - Exit and delete resources from the cluster
      [p] - Manually apply local changes to the application on the cluster
 
-''
+```
