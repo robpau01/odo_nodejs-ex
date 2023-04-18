@@ -1,15 +1,16 @@
-# odo_nodejs-ex
+# ODO With nodejs-ex
 Getting started with NodeJS using odo
 
-# To get deeper understanding of ODO
+# ODO Manual pages
 https://odo.dev/docs/overview/dev_and_deploy
 
-# Run deployment in for testing
+Basic concept ini, dev deploy.....
+
 ```
 # Require that you have created a namespace
 odo set namespace <name>
 ```
-# odo init
+# ODO init
 
 ```
 # Ex.
@@ -53,6 +54,9 @@ To start editing your component, use 'odo dev' and open this folder in your favo
 Changes will be directly reflected on the cluster.
 ```
 
+
+# ODO Dev
+```
 robpau01@xt-lin$ odo dev```
   __
  /  \__     Developing using the "yc" Devfile
@@ -82,3 +86,9 @@ robpau01@xt-lin$ odo dev```
      [p] - Manually apply local changes to the application on the cluster
 
 ```
+
+# ODO Deploy to production
+
+https://odo.dev/docs/user-guides/advanced/deploy/nodejs
+
+
